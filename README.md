@@ -46,35 +46,65 @@ I am interested not only in what AI can do, but also in where it fails, what ass
 
 ## Projects
 
+A few projects that best reflect the kind of systems I like building: applied AI, computer vision, and thoughtful product-oriented software.
+
 ### [DocuPilot](https://github.com/pbhatt0022/docupilot)
 
-AI-powered loan document processing system using Azure Form Recognizer, Azure AI Search, and agentic pipelines for explainable, human-in-the-loop decision support. Developed during my Microsoft internship.
+Built during my Microsoft internship, DocuPilot is an AI-assisted loan processing system for document classification, field extraction, retrieval, and explainable human review.
 
-**Focus:** document intelligence, Azure AI, RAG, agents, decision support
+**Stack:** Python, Streamlit, Azure Form Recognizer, Azure AI Search, Cosmos DB, Blob Storage
+
+**Focus:** document intelligence, RAG, agent orchestration, human-in-the-loop workflows
 
 ---
 
 ### [ACE-HIRE](https://github.com/pbhatt0022/ACE-HIRE_AI-Powered-Interviewer)
 
-AI interview preparation platform that analyzes resumes, generates personalized questions, and provides feedback through voice-recorded practice sessions.
+An AI interview preparation platform that analyzes resumes, generates tailored interview questions, and supports voice-based mock interview practice with feedback.
 
-**Focus:** GenAI application design, resume analysis, interview simulation, Streamlit
+**Stack:** Python, Streamlit, OpenAI, Gemini
+
+**Focus:** GenAI product design, resume analysis, interview simulation, multimodal interaction
+
+---
+
+### [Hardware-Aware RL Quantization](https://github.com/pbhatt0022/hardware-aware-rl-quantization)
+
+A reinforcement learning project that learns layer-wise mixed-precision quantization policies for a YOLOv8n-style detector, using Jetson Orin Nano latency and power measurements to optimize edge deployment tradeoffs.
+
+**Stack:** Python, Jupyter, Gymnasium, Stable-Baselines3, PPO
+
+**Focus:** hardware-aware ML, reinforcement learning, model quantization, edge robotics
 
 ---
 
 ### [Vision Follow Project](https://github.com/pbhatt0022/vision-follow-project)
 
-Real-time person detection and tracking system using YOLO, with PID control signal output for an edge robotics use case.
+A real-time computer vision pipeline that detects and tracks a person with YOLO, measures frame error, and converts that signal into PID-based control output for an edge robotics use case.
 
-**Focus:** computer vision, object tracking, OpenCV, YOLO, PID control
+**Stack:** Python, OpenCV, YOLO
+
+**Focus:** real-time tracking, perception-to-control systems, robotics integration
 
 ---
 
 ### [UniVAL](https://github.com/pbhatt0022/UniVAL)
 
-JavaFX faculty scheduling and coordination system with role-based access, conflict detection, and a Supabase/PostgreSQL backend.
+A JavaFX scheduling and coordination system for university workflows, with role-based access, conflict detection, and a Supabase/PostgreSQL backend.
 
-**Focus:** Java OOP, database-backed applications, scheduling logic, role-based workflows
+**Stack:** Java, JavaFX, PostgreSQL, Supabase
+
+**Focus:** OOP design, scheduling logic, database-backed applications, workflow systems
+
+---
+
+### [LabelWise](https://github.com/pbhatt0022/labelwise)
+
+A facts-first, psychology-informed food-label literacy app that reads the actual package label through OCR or manual entry, then explains ingredient, nutrition, and diet-compatibility context based on saved user preferences.
+
+**Stack:** TypeScript, React, Vite, Tailwind CSS, Supabase, Tesseract.js, Gemini
+
+**Focus:** human-centered AI, OCR-assisted workflows, rule-based analysis, food-label literacy
 
 ---
 
